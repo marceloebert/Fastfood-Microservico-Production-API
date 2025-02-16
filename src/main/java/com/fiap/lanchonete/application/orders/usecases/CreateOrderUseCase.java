@@ -1,3 +1,4 @@
+/*
 package com.fiap.lanchonete.application.orders.usecases;
 
 import com.fiap.lanchonete.application.orders.gateways.OrderGateway;
@@ -72,3 +73,4 @@ public class CreateOrderUseCase {
         return orderGateway.save(savedOrder);
     }
 }
+*/
