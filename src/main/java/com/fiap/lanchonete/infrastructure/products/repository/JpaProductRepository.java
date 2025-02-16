@@ -1,3 +1,4 @@
+/*
 package com.fiap.lanchonete.infrastructure.products.repository;
 
 import com.fiap.lanchonete.infrastructure.products.entity.ProductEntity;
@@ -10,3 +11,4 @@ public interface JpaProductRepository extends JpaRepository<ProductEntity, UUID>
 
     List<ProductEntity> findByCategory(String category);
 }
+*/

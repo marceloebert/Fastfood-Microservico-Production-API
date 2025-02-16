@@ -34,8 +34,8 @@ repositories {
 }
 
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
-	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	//implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
+	//implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-validation")
 	implementation("mysql:mysql-connector-java:8.0.30")

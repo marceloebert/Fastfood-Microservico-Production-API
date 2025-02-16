@@ -1,3 +1,4 @@
+/*
 package com.fiap.lanchonete.infrastructure.products.entity;
 
 import com.fiap.lanchonete.entities.products.Product;
@@ -52,3 +53,4 @@ public class ProductEntity {
         return new Product(this.id, this.description, this.price, this.category);
     }
 }
+*/

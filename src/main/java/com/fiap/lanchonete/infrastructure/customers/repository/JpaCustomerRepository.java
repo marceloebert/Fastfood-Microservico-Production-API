@@ -1,3 +1,4 @@
+/*
 package com.fiap.lanchonete.infrastructure.customers.repository;
 
 import com.fiap.lanchonete.infrastructure.customers.entity.CustomerEntity;
@@ -13,3 +14,4 @@ public interface JpaCustomerRepository extends JpaRepository<CustomerEntity, UUI
     @Query("SELECT c FROM CustomerEntity c WHERE c.document = :document")
     Optional<CustomerEntity> findCustomerByDocument(@Param("document") String document);
 }
+*/

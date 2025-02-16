@@ -1,3 +1,4 @@
+/*
 package com.fiap.lanchonete.infrastructure.orders.entity;
 
 import com.fiap.lanchonete.entities.orders.OrderItem;
@@ -101,3 +102,4 @@ public class OrderItemEntity {
         this.totalPrice = totalPrice;
     }
 }
+*/

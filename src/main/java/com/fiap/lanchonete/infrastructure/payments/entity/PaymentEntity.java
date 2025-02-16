@@ -1,3 +1,4 @@
+/*
 package com.fiap.lanchonete.infrastructure.payments.entity;
 
 import com.fiap.lanchonete.entities.payments.Payment;
@@ -116,3 +117,4 @@ public class PaymentEntity {
         this.qrCode = qrCode;
     }
 }
+*/

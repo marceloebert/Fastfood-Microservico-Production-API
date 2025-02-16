@@ -1,3 +1,4 @@
+/*
 package com.fiap.lanchonete.infrastructure.orders.entity;
 
 import com.fiap.lanchonete.entities.orders.Order;
@@ -137,3 +138,4 @@ public class OrderEntity {
         this.creationTime = creationTime;
     }
 }
+*/

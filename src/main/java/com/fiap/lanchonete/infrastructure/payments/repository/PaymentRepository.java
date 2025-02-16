@@ -1,3 +1,4 @@
+/*
 package com.fiap.lanchonete.infrastructure.payments.repository;
 
 import com.fiap.lanchonete.application.payments.gateways.PaymentGateway;
@@ -30,3 +31,4 @@ public class PaymentRepository implements PaymentGateway {
         return paymentJpaRepository.findById(id).map(PaymentEntity::toPayment);
     }
 }
+*/

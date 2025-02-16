@@ -1,3 +1,4 @@
+/*
 package com.fiap.lanchonete.infrastructure.customers.repository;
 
 import com.fiap.lanchonete.application.customers.gateways.CustomerGateway;
@@ -29,4 +30,4 @@ public class CustomerRepositoryImpl implements CustomerGateway {
     public Optional<Customer> findCustomer(String document) {
         return jpaCustomerRepository.findCustomerByDocument(document).map(CustomerEntity::toCustomer);
     }
-}
+}*/

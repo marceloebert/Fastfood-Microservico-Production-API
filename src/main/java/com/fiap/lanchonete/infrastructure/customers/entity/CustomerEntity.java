@@ -1,3 +1,4 @@
+/*
 package com.fiap.lanchonete.infrastructure.customers.entity;
 
 import java.util.UUID;
@@ -46,3 +47,4 @@ public class CustomerEntity {
     public Customer toCustomer(){return new Customer(this.id, this.name, this.document, this.mail);}
 
 }
+*/

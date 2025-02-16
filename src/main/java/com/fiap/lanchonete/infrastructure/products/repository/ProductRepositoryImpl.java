@@ -1,3 +1,4 @@
+/*
 package com.fiap.lanchonete.infrastructure.products.repository;
 
 import com.fiap.lanchonete.application.products.gateways.ProductGateway;
@@ -57,3 +58,4 @@ public class ProductRepositoryImpl implements ProductGateway {
         return jpaProductRepository.save(productEntity).toProduct();
     }
 }
+*/
