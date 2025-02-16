@@ -10,8 +10,8 @@ spring:
     name: lanchonete
 
   redis:
-    host: production-status-redis-slvfkl.serverless.use1.cache.amazonaws.com
-    port: 6379
+    host: edis-13132.c281.us-east-1-2.ec2.redns.redis-cloud.com
+    port: 13132
     ssl:
       enabled: true
 
