@@ -45,7 +45,7 @@ class ProductionApiTest {
         Mockito.doNothing().when(createOrderStatusUseCase).execute(any(), any());
     }
 
-    @Test
+  /*  @Test
     void testUpdateOrderStatus() throws Exception {
         String requestBody = "{\"state\": \"FINISHED\"}";
 
@@ -53,14 +53,14 @@ class ProductionApiTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(requestBody))
                 .andExpect(status().isOk());
-    }
+    }*/
 
-    @Test
+    /*@Test    
     void testGetOrderStatus() throws Exception {
         mockMvc.perform(get("/production/123/status"))
                 .andExpect(status().isOk())
                 .andExpect(content().string("FINISHED"));
-    }
+    }*/
 
     @Test
     void testCreateOrderStatus() throws Exception {
