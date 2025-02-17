@@ -39,6 +39,7 @@ class ProductionApiTest {
 
     @BeforeEach
     void setUp() {
+        Mockito.when(getOrderStatusUseCase.execute("123")).thenReturn(Optional.of(OrderState.PENDING));
         Mockito.doNothing().when(updateOrderStatusUseCase).execute(any(), any());
         Mockito.when(getOrderStatusUseCase.execute(any())).thenReturn(Optional.of(OrderState.PENDING));
         Mockito.doNothing().when(createOrderStatusUseCase).execute(any(), any());
@@ -46,7 +47,7 @@ class ProductionApiTest {
 
     @Test
     void testUpdateOrderStatus() throws Exception {
-        String requestBody = "{\"state\": \"DONE\"}";
+        String requestBody = "{\"state\": \"FINISHED\"}";
 
         mockMvc.perform(put("/production/123/status")
                         .contentType(MediaType.APPLICATION_JSON)
