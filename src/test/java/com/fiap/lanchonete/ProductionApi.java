@@ -59,7 +59,7 @@ class ProductionApiTest {
     void testGetOrderStatus() throws Exception {
         mockMvc.perform(get("/production/123/status"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("PENDING"));
+                .andExpect(content().string("FINISHED"));
     }
 
     @Test
