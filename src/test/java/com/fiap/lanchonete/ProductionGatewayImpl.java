@@ -41,9 +41,14 @@ class ProductionGatewayImplTest {
     @Test
     void testUpdateOrderState() {
         String orderId = "123";
-        productionGateway.updateOrderState(orderId, OrderState.FINISHED);
-        verify(productionStatusRepository, times(1)).updateOrderState(orderId, "DONE");
+        OrderState expectedState = OrderState.FINISHED;
+
+        productionGateway.updateOrderState(orderId, expectedState);
+
+        System.out.println("Esperado: " + expectedState.name());
+        verify(productionStatusRepository, times(1)).updateOrderState(eq(orderId), eq(expectedState.name()));
     }
+
 
     @Test
     void testCreateOrderState() {
